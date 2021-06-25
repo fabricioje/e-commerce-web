@@ -1,0 +1,9 @@
+.main {
+    background-color: var(--color-primary);
+    padding: 4opx;
+    height: 100%;
+}
+
+.list{
+    margin-top: 50px;
+}
