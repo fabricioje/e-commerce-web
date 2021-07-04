@@ -1,6 +1,6 @@
 import React from "react";
 import { InputGroup, FormControl, Button, Row, Col } from 'react-bootstrap';
-import BlueBackground from "../shared/BlueBackgraoud";
+import BlueBackground from "../shared/BlueBackground";
 
 import AuthState from '../../dtos/AuthState';
 import User from '../../dtos/User';

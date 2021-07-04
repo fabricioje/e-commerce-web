@@ -1,5 +1,5 @@
 import { InputGroup, FormControl, Button, Row, Col } from 'react-bootstrap';
-import BlueBackground from '../shared/BlueBackgraoud';
+import BlueBackground from '../shared/BlueBackground';
 
 import UsersService from '../../services/users';
 
