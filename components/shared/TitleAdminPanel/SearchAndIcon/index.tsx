@@ -29,6 +29,10 @@ const SearchAndIcon: React.FC<SearchAndIcon> = ({ icon, newPath }) => {
   const dispatch = useDispatch();
   const router = useRouter();
 
+  useEffect(() => {
+    dispatch(clearSearch());
+}, [])
+
   // limpando a pesquisa quando o component for renderizado
   useEffect(() => {
     switch(router.pathname) {
